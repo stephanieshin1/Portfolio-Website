@@ -1,0 +1,161 @@
+* {
+  font-family: 'Comfortaa', cursive;
+  letter-spacing: 2px;
+}
+
+body {
+  background: url(../images/grid.jpg);
+  background-repeat: repeat;
+}
+
+.main_menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main_menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.main_menu li {
+  float: right;
+}
+
+.main_menu li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+main {
+  width: 80%;
+  background-color: white;
+  margin: 5% auto 5% auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-width: 50px;
+  border-style:solid;
+  border-color: white;
+  background-color: #375059;
+  color: white;
+  text-align: center;
+  min-height: 500px;
+  max-width: 1000px;
+}
+
+hr {
+  width: 50%;
+  margin: 5% auto 5% auto;
+}
+
+h3 {
+  padding: 5%;
+  letter-spacing: 5px;
+  font-size: 2em;
+}
+
+p {
+  padding: 0 5% 0 5%;
+}
+
+button {
+  box-shadow: none;
+  border: none;
+  padding: 2em;
+  color: black;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.home_page button {
+  margin-bottom: 5%;
+}
+
+section {
+  width: 80%;
+  background-color: #292929;
+  margin: auto;
+  border-radius: 20px;
+}
+
+section p {
+  padding: 5%;
+  text-align: left;
+}
+
+.projects_page h4 {
+  padding-top: 5%;
+  font-size: 1.5em;
+}
+
+.projects_page p {
+  padding: 1% 5% 0%;
+}
+
+.projects_page #top {
+  padding-top: 5%;
+}
+
+.projects_page #bottom {
+  padding-bottom: 5%;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: black
+}
+
+a:hover, li a:hover {
+  color: #3297a8;
+  transition: 0.5s;
+}
+
+.projects_page a {
+  color: #3297a8;
+}
+
+.projects_page a:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+img {
+  width: 60%;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 0% auto 5%;
+
+}
+
+.projects_page hr {
+  margin-top: 0;
+}
+
+.projects_page section hr {
+  width: 80%;
+}
+
+#last_section {
+  margin-bottom: 10%;
+}
+
+footer {
+  bottom: 0;
+  height: 2.5%;
+  background-color: white;
+  color: black;
+  width: 100%;
+  font-size: 100%;
+  text-align: center;
+}
+
+footer h6 {
+  display: inline;
+}
