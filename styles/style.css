@@ -25,6 +25,7 @@ body {
 
 .main_menu li {
   float: right;
+  font-size: 1.5em;
 }
 
 .main_menu li a {
@@ -131,7 +132,21 @@ img {
   border-radius: 20px;
   display: inline-block;
   margin: 0% auto 5%;
+}
 
+button:hover {
+  color: #3297a8;
+  transition: 0.5s;
+}
+
+a h5 {
+  color: white;
+  margin-bottom: 5em;
+}
+
+a h5:hover {
+  color: #c5e0e0;
+  transition: 0.5s;
 }
 
 .projects_page hr {
