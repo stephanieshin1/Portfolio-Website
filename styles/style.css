@@ -126,10 +126,11 @@ a:hover, li a:hover {
   transition: 0.5s;
 }
 
+
 #navlink {
   color: white;
   margin-bottom: 5em;
-  display: block;
+  display: inline-block;
 }
 
 #navlink:hover {
