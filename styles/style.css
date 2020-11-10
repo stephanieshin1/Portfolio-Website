@@ -25,7 +25,6 @@ body {
 
 .main_menu li {
   float: right;
-  font-size: 1.5em;
 }
 
 .main_menu li a {
@@ -127,6 +126,17 @@ a:hover, li a:hover {
   transition: 0.5s;
 }
 
+#navlink {
+  color: white;
+  margin-bottom: 5em;
+  display: block;
+}
+
+#navlink:hover {
+  color: #c5e0e0;
+  transition: 0.5s;
+}
+
 img {
   width: 60%;
   border-radius: 20px;
@@ -136,16 +146,6 @@ img {
 
 button:hover {
   color: #3297a8;
-  transition: 0.5s;
-}
-
-a h5 {
-  color: white;
-  margin-bottom: 5em;
-}
-
-a h5:hover {
-  color: #c5e0e0;
   transition: 0.5s;
 }
 
