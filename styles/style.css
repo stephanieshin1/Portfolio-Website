@@ -45,6 +45,7 @@ main {
   width: 80%;
   background-color: white;
   margin: 7% auto 5% auto;
+  margin-top: max(7%, 115px);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-width: 50px;
   border-style:solid;
