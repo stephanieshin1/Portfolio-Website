@@ -1,12 +1,13 @@
 * {
-  font-family: 'Comfortaa', cursive;
-  letter-spacing: 2px;
+  /* font-family: 'Comfortaa', cursive; */
+  font-family: 'Arial';
+  letter-spacing: 3px;
 }
 
-body {
+/*body {
   background: url(../images/grid.jpg);
   background-repeat: repeat;
-}
+}*/
 
 .main_menu {
   position: fixed;
@@ -27,7 +28,7 @@ body {
 
 .main_menu li {
   float: right;
-  background-color: #c5e0e0;
+  /*background-color: #c5e0e0; */
   border-radius: 20px;
   margin: 1%;
   padding: 0 1%;
@@ -44,17 +45,25 @@ body {
 main {
   width: 80%;
   background-color: white;
-  margin: 7% auto 5% auto;
+  margin: 5% auto 3% auto;
   margin-top: max(7%, 115px);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
   border-width: 50px;
   border-style:solid;
   border-color: white;
-  background-color: #375059;
+  /*background-color: #375059; */
   color: white;
   text-align: center;
   min-height: 500px;
   max-width: 1000px;
+}
+
+main p {
+  font-size: 20px;
+}
+
+.title {
+  color: black;
 }
 
 hr {
@@ -93,7 +102,7 @@ section {
 }
 
 section p {
-  padding: 5%;
+  padding: 3%;
   text-align: left;
 }
 
@@ -120,12 +129,12 @@ a, a:visited {
 }
 
 a:hover, li a:hover {
-  color: #3297a8;
+  color: red;
   transition: 0.5s;
 }
 
 .projects_page a {
-  color: #3297a8;
+  color:red;
 }
 
 .projects_page a:hover {
@@ -141,7 +150,7 @@ a:hover, li a:hover {
 }
 
 #navlink:hover {
-  color: #c5e0e0;
+  color: red;
   transition: 0.5s;
 }
 
@@ -153,7 +162,7 @@ img {
 }
 
 button:hover {
-  color: #3297a8;
+  color: red;
   transition: 0.5s;
 }
 
