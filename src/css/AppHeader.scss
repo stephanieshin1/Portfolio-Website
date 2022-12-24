@@ -6,7 +6,7 @@
     width: 100%;
 
     h1 {
-        font-size: clamp(56px, 4vw, 72px);
+        font-size: clamp(50px, 4vw, 72px);
         font-weight: 900;
         text-shadow: 3px 3px #ffffff;
     }
@@ -58,6 +58,12 @@
         }
 
         .app-nav {
+            a {
+                display: inherit;
+                font-size: 14px;
+                margin-left: 4px;
+            }
+
             a:first-child {
                 margin-left: 0;
             }
